@@ -1,4 +1,4 @@
-messages:
+  messages:
   whitelist: "Access Denied: Your account is not currently whitelisted for this server."
   unknown-command: "Command not recognized. Please type '/help' for assistance."
   server-full: "Server Capacity Reached: The server is currently full."
@@ -15,7 +15,7 @@ settings:
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 8.0
   timeout-time: 60
-  restart-on-crash: true
+  restart-on-crash: false
   restart-script: ./start.sh
   netty-threads: 1
   attribute:
