@@ -1,10 +1,10 @@
 settings:
-  allow-end: true
+  allow-end: false
   warn-on-overload: false
   permissions-file: permissions.yml
   update-folder: update
   plugin-profiling: false
-  connection-throttle: -1
+  connection-throttle: 4000
   query-plugins: false
   deprecated-verbose: false
   shutdown-message: "Server closed"
@@ -12,7 +12,7 @@ settings:
   use-map-color-cache: true
 
 spawn-limits:
-  monsters: 35
+  monsters: 10
   animals: 6
   water-animals: 2
   water-ambient: 4
